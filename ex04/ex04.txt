@@ -1,0 +1,9 @@
+Q) What is wrong with the following code? (Easy)
+    infile = open("input.txt", "r")
+    infile.close()
+    line = infile.readline()
+    while line != "" :
+        print(line)
+        line = infile.readline()
+
+A) The file opened as variable "infile" is closed before it can be read.

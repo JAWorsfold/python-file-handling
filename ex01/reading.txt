@@ -1,0 +1,4 @@
+Q) What happens if you call infile = open("", "r")? (Easy)
+
+A) Python will open the file for the purposes of reading the file.
+If you change the "r" to "rb" it'll open the file in binary.

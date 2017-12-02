@@ -1,0 +1,5 @@
+Q) What is wrong with the following code? (Easy)
+  - outfile = open("output.txt", "r")
+  - outfile.write("Hello, World!")
+
+A) The variable outfile is opened as a readable file, so can't be written to.

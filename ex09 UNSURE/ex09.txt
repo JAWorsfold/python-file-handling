@@ -1,0 +1,6 @@
+Q) What is the difference between sequential access and random access?
+
+A) I honestly couldn't see any mention of this in the notes or lecture slides.
+I would assume the difference is that sequential access will access a file
+sequentially, line by line, or however you have asked it to. Whereas random
+access will access the file in a random place.

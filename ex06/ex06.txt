@@ -1,0 +1,7 @@
+Q) What happens if you try to open a file for reading that doesn’t exist?
+
+A)  File "ex06.py", line 1, in <module>
+        infile = open('input.txt', 'r')
+    FileNotFoundError: [Errno 2] No such file or directory: 'input.txt'
+
+Python is unable to find the file in question and raises a FileNotFoundError.

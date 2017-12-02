@@ -1,0 +1,4 @@
+Q) How do you open a file whose name contains a backslash, like c:\temp\output.dat?
+
+A) To use an absolute path in Python (on Windows) you have to write the above
+path as: C:/temp/output.dat.

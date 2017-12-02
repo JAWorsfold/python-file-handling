@@ -1,0 +1,4 @@
+Q) What happens if you try to open a file for writing that doesn’t exist?
+
+A) Python will create an empty file with the filename outlined. I demonstrated
+this using a file name 'input.txt' and python created an empty txt file.
