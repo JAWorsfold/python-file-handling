@@ -1,0 +1,5 @@
+read_me = open("ex12.txt", "r")
+print(read_me.read(200))
+print(read_me.seek(500))
+print(read_me.tell())
+read_me.close()

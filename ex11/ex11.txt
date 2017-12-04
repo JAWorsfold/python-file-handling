@@ -1,0 +1,8 @@
+Q) What is the file marker? How do you move it? How do you determine its
+current position? (Medium)
+
+A) The file marker in python keeps track of your position when reading a file.
+The file marker will move when reading the file, but you can also move it
+manually. When reading you can move the line marker elsewhere with
+file.seek(int) to find a specific place in the file. To find out the current
+position you can use file.tell().

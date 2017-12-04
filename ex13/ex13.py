@@ -1,0 +1,6 @@
+file = open('hello.txt', 'w')
+file.write('"Hello, World!"')
+file.close()
+read_file = open('hello.txt', 'r')
+print(read_file.read())
+read_file.close()

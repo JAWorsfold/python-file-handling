@@ -1,2 +1,3 @@
 outfile = open('output.txt', 'w')
 outfile.write("Hello,\nWorld!")
+outfile.close()

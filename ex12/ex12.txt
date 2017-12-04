@@ -1,0 +1,8 @@
+Q) What happens if you try to move the file marker past the end of a file?
+Try it out and report your results.
+
+A) I was able to use file.seek(int) to move the position marker past the
+previous end of the file. When I subsequently printed the file location with
+file.tell(int) it told me that the position marker was at the new position
+which previous had not existed. The file didn't change however as it was only
+a read file.

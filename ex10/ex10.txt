@@ -1,4 +1,4 @@
 Q) What is the difference between a text file and a binary file? (Easy)
 
 A) A text file displays text with ASCII or Unicode characters, whereas the
-binary file will display the information in binary.
+binary file will display the information in binary (bytes).
