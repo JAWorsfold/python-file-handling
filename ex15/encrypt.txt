@@ -1,0 +1,2 @@
+This sort of works, except I didn't take the time to adjust for upper or
+lower case letters when encrypting and decrypting. Last key: KEY.
